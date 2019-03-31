@@ -1,5 +1,5 @@
 function zoomIn(number){
-  document.getElementById("portfolioBigPicIMG").src = "images/portfolio/big/"+number+".jpg";
+  document.getElementById("portfolioBigPicIMG").src = "images/portfolio/big/"+number+".png";
 
 
   document.getElementById("portfolioBigPic"). style.display = "block";
