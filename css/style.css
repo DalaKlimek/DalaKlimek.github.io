@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
 }
 
+
 a {
     transition: all 0.3s;
 }
@@ -200,6 +201,7 @@ a:not([href]):not([tabindex]) {
     height: 100%;
     position: fixed;
     width: 100%;
+
 }
 
 .overlay.light {
@@ -2045,7 +2047,7 @@ z-index: 80;
 }
 /*PROBEM IMAG*/
 
-#portfolioBigPic img{
+#portfolioBigPicIMG{
   position: fixed;
     top: 50%;
     left: 50%;
@@ -2068,4 +2070,26 @@ position: fixed;
   font: sans-serif;
   font-weight: 600;
   z-index: 99;
+}
+
+#loader{
+  position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 50px;
+    height: 50px;
+  z-index: 28;
+}
+.Landingpagebg{
+
+  height: 100%;
+}
+
+#preloadernew{
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
